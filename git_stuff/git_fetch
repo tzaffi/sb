@@ -1,0 +1,5 @@
+git pull = git fetch && git merge
+git branch = ls .git/refs/heads
+git branch -r = find .git/refs/remotes
+git fetch --all
+git fetch origin master

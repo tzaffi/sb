@@ -1,0 +1,2 @@
+git checkout -- <filename>
+git reset --hard origin/master

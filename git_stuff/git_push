@@ -1,0 +1,7 @@
+git push
+git push --force
+git push --all
+git push --tags
+
+git branch -D THE_BRANCH
+git push origin :THE_BRANCH

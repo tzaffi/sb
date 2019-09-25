@@ -1,0 +1,18 @@
+git remote
+
+# add
+
+git remove -v
+git remote add rachok git@github.com:tzaffi/sb.git
+git remote -v
+git remote rm rachok
+git remote -v
+
+# get-url
+
+git remote get-url origin
+git remote get-url origin --push
+
+# show
+
+git remote show origin
