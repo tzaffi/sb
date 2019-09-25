@@ -1,0 +1,9 @@
+git tag 1.0.0 <COMMIT_HASH>
+
+git log RESULTS in:
+
+commit 0be4c8baac008ff8a56fec57d77578894986fa70 (HEAD -> master, tag: python, origin/master)
+Author: Zeph Grunschlag <zgrunschlag@stashinvest.com>
+Date:   Tue Sep 24 22:49:36 2019 -0400
+
+    initial
