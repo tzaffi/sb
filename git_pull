@@ -1,0 +1,4 @@
+git pull
+git pull --rebase # uses a rebase merging strategy instead of a 'merge commit'
+git pull --verbose
+git config --global branch.autosetuprebase always # if you preper to always --rebase over merging when pulling remote
