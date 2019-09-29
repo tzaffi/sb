@@ -4,4 +4,5 @@
 
 ## git pull --rebase
 
-![](../docs/git_pull_rebase.png)
+![](./docs/git_pull_rebase.png)
+
