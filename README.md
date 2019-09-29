@@ -1,6 +1,6 @@
-## URL
+## Links
 
- https://www.atlassian.com/git/tutorials/syncing
+[git]( https://www.atlassian.com/git/tutorials/syncing)
 
 ## git pull --rebase
 
