@@ -1,0 +1,12 @@
+A: Hello Dockerfile
+cd self-contained-container
+docker build -t hello-world .
+docker run hello-world	    
+docker ps -a		    
+docker start -ia 078b2936485c
+
+B: Delete Image
+docker pull busybox		   
+docker images			   
+docker rmi busybox		   
+docker images			   

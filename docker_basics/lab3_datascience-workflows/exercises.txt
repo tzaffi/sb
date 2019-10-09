@@ -1,0 +1,19 @@
+A: Self-Contained Container - pushed up to my docker hub
+
+cd self-contained-container
+docker build -t tzaffi/workflow1-self-contained .
+docker run -p 8888:8888 tzaffi/workflow1-self-contained
+# Browse to http://localhost:8888
+# COPY the auth token from the `docker run` print-out into the token text box in the browser
+
+# upload to my Dockerhub:
+docker login # tzaffi/pswd
+docker push tzaffi/workflow1-self-contained
+
+B: Data Science Project
+cd data-science-project
+docker build -t workflow2-data-science-project .
+docker run -p 8888:8888 -v /tmp:/app workflow2-data-science-project
+# Browse to http://localhost:8888
+# COPY the auth token from the `docker run` print-out into the token text box in the browser
+

@@ -1,0 +1,65 @@
+# PRE-WORK
+
+cd docker-for-data-science-tutorial/exercises/04_data_science_essentials
+
+```bash
+docker build -t talk_recommender .
+docker run -p 8888:8888 -p 9000:9000 -v $(pwd):/app talk_recommender
+```
+
+# A. Load the data
+
+Talks that user prefered watching. How many?
+>>> len(df[(df.year==2017) & (df.label==1)]['description'])
+38
+
+# B. Feature extraction
+
+Represented token occurences with a sparse matrix
+
+# C. Split into training and test (no validation)
+
+Just set test_size=0.3
+
+# D. Train the model
+
+Just had to print() the `classification_report`
+
+# E. Make predictions
+
+Hardest part was figuring out how to select by index from a Pandas dataframe.
+The answer was:
+
+`predicted_talks = df[df.index.isin(predicted_talk_indexes)]`
+
+# F. RAAS (Reccommender As A Service)
+
+Doing EVERYTHING in predict, including feature extraction, training based on last year, etc.
+
+We stopped the container with
+
+`docker stop CONTAINER_ID`
+
+The rebuilt and re-ran.
+
+Then started the flask app with
+
+`docker exec CONTAINER_ID python api.py`
+
+and saw that we got 20 rows back in the flask web page
+
+#G. Pickle the model
+
+This amounts to
+
+```python
+with open('talk_recommender.pkl', 'wb') as f:
+    joblib.dump(classifier, f)
+```
+in the Jupyter file
+
+and
+`classifier = joblib.load('talk_recommender.pkl')`
+in the Flask file
+
+(doesn't totally work as also need to pickle the vectorized stuff...)

@@ -1,0 +1,29 @@
+A: pull an image
+sudo docker pull python:3.6.5-alpine3.7
+sudo docker images
+
+B: run the container
+sudo docker run -it python:3.6.5-alpine3.7
+CTRL + P + Q # exit the container interactive mode, without 
+
+C: stop the container
+sudo docker ps  # shows the running container
+sudo docker ps -a # also shows stopped containers
+sudo docker stop CONTAINER_NAME
+sudo docker ps -a
+
+D: Delete Container
+sudo docker ps -a
+sudo docker rm condescending_dubinsky jolly_chatterjee hello_docker_wordpress_1 hello_docker_db_1
+sudo docker ps -a
+
+E: Shell >>>>into<<< container
+sudo docker run -it python:3.6.5-alpine3.7 /bin/sh
+CTRL + P + Q
+sudo docker ps						
+sudo docker stop flamboyant_joliot			
+
+AFTER: re-start a container
+docker ps -a
+docker start -ia agitated_dewdney # by container name
+docker start -ia 762f33d26d93	  # by ID		   
