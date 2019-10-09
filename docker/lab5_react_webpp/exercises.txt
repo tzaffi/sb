@@ -1,0 +1,55 @@
+# Docker Compose Essentials
+
+Inside of docker/docker-for-data-science/talkvoter
+
+## A. basics of docker-compose
+
+docker-compose build
+docker-compose up
+
+# combine both above with:
+docker-compose up --build -d
+
+docker-compose ps
+docker ps
+
+# restart a service:
+docker-compose restart app
+
+# stop everything
+docker-compose stop
+docker-compose ps
+
+# bring back up (without rebuilding):
+docker-compose start
+docker-compose ps # shows exited containers
+
+# destroy everything
+docker-compose down
+docker-compose ps # shows nothing
+
+## B. Expose a port
+
+added a `docker-compose.override.yml` exposing 8000 -> 8000
+
+ran `docker-compose up` and was able to reach login page of application
+
+## C. Exec v. Run
+
+# did
+docker-compose exec app /bin/bash
+v
+docker-compose run  app /bin/bash
+	       ^^^^
+
+and then created a file.
+For exec it persisted. For run it didn't. Also could not see file created in
+exec in run.
+
+## D. Second node and intereact
+
+Connected to app and was able to ping the db with `ping db` - that was COOL!!!
+
+Then installed a `psql` client and was able to connect as well.
+
+For more details see here: https://github.com/docker-for-data-science/docker-for-data-science-tutorial/tree/master/exercises/05_docker_compose_essentials#exercise-d-add-a-second-node-and-interact
