@@ -38,7 +38,6 @@ ran `docker-compose up` and was able to reach login page of application
 
 # did
 docker-compose exec app /bin/bash
-v
 docker-compose run  app /bin/bash
 	       ^^^^
 
@@ -53,3 +52,14 @@ Connected to app and was able to ping the db with `ping db` - that was COOL!!!
 Then installed a `psql` client and was able to connect as well.
 
 For more details see here: https://github.com/docker-for-data-science/docker-for-data-science-tutorial/tree/master/exercises/05_docker_compose_essentials#exercise-d-add-a-second-node-and-interact
+
+## E. My own extra exercises. I want to actually see how the notebook is running
+
+docker-compose --build -d
+
+# couldn't log into app at 8000 so tailed logs with:
+docker-compose logs -f app
+
+# so really had to issue some commands as exemplified in ./Makefile:
+docker-compose exec app flask db upgrade --directory ./talkvoter/migrations/
+username=myuser password=insecure make superuser
