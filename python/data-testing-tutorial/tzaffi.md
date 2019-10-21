@@ -5,7 +5,7 @@
 3. docker run -p 8888:8888 -p 9000:9000 -v $(pwd):/app python-data-testing
 4. copy/paste the token into browser running on 8888
 
-5. edit docke file so that:
+5. edit docker file so that:
 ```
 FROM python:3.7-slim-buster
 ```
