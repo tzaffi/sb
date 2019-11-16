@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+   jupyter:
+     ports:
+       - "8895:8888"
+       - "9000:9000"

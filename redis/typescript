@@ -1,0 +1,169 @@
+Script started on 2019-11-15 13:17:40-0500
+(base) ]0;tzaffi@ubuntu: ~/redis[01;32mtzaffi@ubuntu[00m:[01;34m~/redis[00m$ redis-cli
+127.0.0.1:6379> [0K127.0.0.1:6379> s[17C[0K127.0.0.1:6379> se[18C[0K127.0.0.1:6379> set[0;90;49m key value [EX seconds] [PX milliseconds] [NX|XX][0m[19C[0K127.0.0.1:6379> SET[0;90;49m key value [EX seconds] [PX milliseconds] [NX|XX][0m[19C[0K127.0.0.1:6379> SET [0;90;49mkey value [EX seconds] [PX milliseconds] [NX|XX][0m[20C[H[2J[0K127.0.0.1:6379> SET [0;90;49mkey value [EX seconds] [PX milliseconds] [NX|XX][0m[20C[0K127.0.0.1:6379> SET[0;90;49m key value [EX seconds] [PX milliseconds] [NX|XX][0m[19C[0K127.0.0.1:6379> SE[18C[0K127.0.0.1:6379> S[17C[0K127.0.0.1:6379> Ss[18C[0K127.0.0.1:6379> S[17C[0K127.0.0.1:6379> [16C[0K127.0.0.1:6379> s[17C[0K127.0.0.1:6379> se[18C[0K127.0.0.1:6379> set[0;90;49m key value [EX seconds] [PX milliseconds] [NX|XX][0m[19C[0K127.0.0.1:6379> set [0;90;49mkey value [EX seconds] [PX milliseconds] [NX|XX][0m[20C[0K127.0.0.1:6379> set z[0;90;49m value [EX seconds] [PX milliseconds] [NX|XX][0m[21C[0K127.0.0.1:6379> set ze[0;90;49m value [EX seconds] [PX milliseconds] [NX|XX][0m[22C[0K127.0.0.1:6379> set zep[0;90;49m value [EX seconds] [PX milliseconds] [NX|XX][0m[23C[0K127.0.0.1:6379> set zeph[0;90;49m value [EX seconds] [PX milliseconds] [NX|XX][0m[24C[0K127.0.0.1:6379> set zeph [0;90;49mvalue [EX seconds] [PX milliseconds] [NX|XX][0m[25C[0K127.0.0.1:6379> set zeph 4[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[26C[0K127.0.0.1:6379> set zeph 49[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[27C[0K127.0.0.1:6379> set zeph 49 [0;90;49m[EX seconds] [PX milliseconds] [NX|XX][0m[28C[0K127.0.0.1:6379> set zeph 49 1[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[29C[0K127.0.0.1:6379> set zeph 49 10[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[30C[0K127.0.0.1:6379> set zeph 49 100[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[31C[0K127.0.0.1:6379> set zeph 49 1000[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[32C[0K127.0.0.1:6379> set zeph 49 10000[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[33C[0K127.0.0.1:6379> set zeph 49 100000[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[34C[0K127.0.0.1:6379> set zeph 49 1000000[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[35C[0K127.0.0.1:6379> set zeph 49 1000000[35C
+(error) ERR syntax error
+127.0.0.1:6379> [0K127.0.0.1:6379> s[17C[0K127.0.0.1:6379> se[18C[0K127.0.0.1:6379> set[0;90;49m key value [EX seconds] [PX milliseconds] [NX|XX][0m[19C[0K127.0.0.1:6379> set [0;90;49mkey value [EX seconds] [PX milliseconds] [NX|XX][0m[20C[0K127.0.0.1:6379> set z[0;90;49m value [EX seconds] [PX milliseconds] [NX|XX][0m[21C[0K127.0.0.1:6379> set ze[0;90;49m value [EX seconds] [PX milliseconds] [NX|XX][0m[22C[0K127.0.0.1:6379> set zep[0;90;49m value [EX seconds] [PX milliseconds] [NX|XX][0m[23C[0K127.0.0.1:6379> set zeph[0;90;49m value [EX seconds] [PX milliseconds] [NX|XX][0m[24C[0K127.0.0.1:6379> set zeph [0;90;49mvalue [EX seconds] [PX milliseconds] [NX|XX][0m[25C[0K127.0.0.1:6379> set zeph "[26C[0K127.0.0.1:6379> set zeph "4[27C[0K127.0.0.1:6379> set zeph "49[28C[0K127.0.0.1:6379> set zeph "49"[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[29C[0K127.0.0.1:6379> set zeph "49" [0;90;49m[EX seconds] [PX milliseconds] [NX|XX][0m[30C[0K127.0.0.1:6379> set zeph "49" 1[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[31C[0K127.0.0.1:6379> set zeph "49" 10[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[32C[0K127.0.0.1:6379> set zeph "49" 100[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[33C[0K127.0.0.1:6379> set zeph "49" 1000[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[34C[0K127.0.0.1:6379> set zeph "49" 10000[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[35C[0K127.0.0.1:6379> set zeph "49" 10000[35C
+(error) ERR syntax error
+127.0.0.1:6379> [0K127.0.0.1:6379> s[17C[0K127.0.0.1:6379> [16C[0K127.0.0.1:6379> s[17C[0K127.0.0.1:6379> se[18C[0K127.0.0.1:6379> set[0;90;49m key value [EX seconds] [PX milliseconds] [NX|XX][0m[19C[0K127.0.0.1:6379> set [0;90;49mkey value [EX seconds] [PX milliseconds] [NX|XX][0m[20C[0K127.0.0.1:6379> set "[21C[0K127.0.0.1:6379> set "z[22C[0K127.0.0.1:6379> set "ze[23C[0K127.0.0.1:6379> set "zep[24C[0K127.0.0.1:6379> set "zeph[25C[0K127.0.0.1:6379> set "zeph [26C[0K127.0.0.1:6379> set "zeph[25C[0K127.0.0.1:6379> set "zeph"[0;90;49m value [EX seconds] [PX milliseconds] [NX|XX][0m[26C[0K127.0.0.1:6379> set "zeph" [0;90;49mvalue [EX seconds] [PX milliseconds] [NX|XX][0m[27C[0K127.0.0.1:6379> set "zeph" "[28C[0K127.0.0.1:6379> set "zeph" "4[29C[0K127.0.0.1:6379> set "zeph" "49[30C[0K127.0.0.1:6379> set "zeph" "49"[0;90;49m [EX seconds] [PX milliseconds] [NX|XX][0m[31C[0K127.0.0.1:6379> set "zeph" "49"[31C
+OK
+127.0.0.1:6379> 
+(base) ]0;tzaffi@ubuntu: ~/redis[01;32mtzaffi@ubuntu[00m:[01;34m~/redis[00m$ redis-cli[5Pexitsudo service network-manager restart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Phistory | grep -inetworksudo rm Starbucks\ WiFi cd -[Ksudo rm Starbucks\ WiFi cd -[K[1Ppwdcurl www.google.comping[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfg[Kping www.google.comcurl[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kcd -[Khistory | grep cd
+  673  mkdir data && [01;31m[Kcd[m[K data
+  679  [01;31m[Kcd[m[K ..
+  696  [01;31m[Kcd[m[K ..
+  701  mkdir data-science-project && [01;31m[Kcd[m[K data-science-project
+  702  echo "[01;31m[Kcd[m[K data-science-project" >> ../exercises.txt
+  706  [01;31m[Kcd[m[K ..
+  707  [01;31m[Kcd[m[K -
+  714  [01;31m[Kcd[m[K ~/docker/
+  716  [01;31m[Kcd[m[K docker-for-data-science/
+  722  [01;31m[Kcd[m[K lab4_from_model_to_webabb/
+  723  echo "[01;31m[Kcd[m[K docker-for-data-science-tutorial/exercises/04_data_science_essentials" >> exercises.txt
+  733  [01;31m[Kcd[m[K ..
+  735  [01;31m[Kcd[m[K ..
+  742  [01;31m[Kcd[m[K docker-for-data-science/
+  753  [01;31m[Kcd[m[K ~/sb
+  762  [01;31m[Kcd[m[K docker_basics/
+  764  [01;31m[Kcd[m[K ..
+  771  [01;31m[Kcd[m[K docker
+  774  [01;31m[Kcd[m[K lab5_react_webpp/
+  783  [01;31m[Kcd[m[K ..
+  791  [01;31m[Kcd[m[K ~/docker/
+  793  [01;31m[Kcd[m[K docker-for-data-science/
+  795  [01;31m[Kcd[m[K talkvoter/
+  846  [01;31m[Kcd[m[K -
+  854  [01;31m[Kcd[m[K ../..
+  856  [01;31m[Kcd[m[K docker/
+  858  [01;31m[Kcd[m[K lab5_react_webpp/
+  861  [01;31m[Kcd[m[K ~/docker/docker-for-data-science/
+  864  [01;31m[Kcd[m[K talkvoter/
+  891  [01;31m[Kcd[m[K ..
+  893  [01;31m[Kcd[m[K -
+  895  [01;31m[Kcd[m[K ~/sb/
+  901  [01;31m[Kcd[m[K ..
+  903  [01;31m[Kcd[m[K -
+  905  [01;31m[Kcd[m[K docker/
+  908  [01;31m[Kcd[m[K ../python/
+  910  [01;31m[Kcd[m[K data-testing-tutorial/
+  953  [01;31m[Kcd[m[K ~/docker/
+  955  [01;31m[Kcd[m[K docker-for-data-science/
+  957  [01;31m[Kcd[m[K talkvoter/
+  966  [01;31m[Kcd[m[K sb
+  972  [01;31m[Kcd[m[K python/
+  974  [01;31m[Kcd[m[K sweigart/
+ 1031  [01;31m[Kcd[m[K ../
+ 1034  [01;31m[Kcd[m[K ..
+ 1042  [01;31m[Kcd[m[K ~/python
+ 1043  [01;31m[Kcd[m[K python/
+ 1046  [01;31m[Kcd[m[K data-testing-tutorial/
+ 1257  [01;31m[Kcd[m[K ..
+ 1262  [01;31m[Kcd[m[K data
+ 1266  [01;31m[Kcd[m[K FakeNewsNet/
+ 1271  [01;31m[Kcd[m[K dataset/
+ 1278  [01;31m[Kcd[m[K sb
+ 1294  [01;31m[Kcd[m[K ~/Downloads/
+ 1304  [01;31m[Kcd[m[K
+ 1307  [01;31m[Kcd[m[K fidelity/
+ 1310  [01;31m[Kcd[m[K ~/Pictures/
+ 1317  [01;31m[Kcd[m[K Downloads/
+ 1341  [01;31m[Kcd[m[K ~/papers-with-code/
+ 1345  [01;31m[Kcd[m[K ..
+ 1346  [01;31m[Kcd[m[K sb/
+ 1350  [01;31m[Kcd[m[K wrangling/
+ 1361  [01;31m[Kcd[m[K ..
+ 1366  [01;31m[Kcd[m[K sb
+ 1368  [01;31m[Kcd[m[K ..
+ 1371  [01;31m[Kcd[m[K sb
+ 1383  [01;31m[Kcd[m[K aic-5_1_10-api-mini-project/
+ 1386  [01;31m[Kcd[m[K ..
+ 1389  [01;31m[Kcd[m[K -
+ 1395  [01;31m[Kcd[m[K -
+ 1399  [01;31m[Kcd[m[K ..
+ 1400  [01;31m[Kcd[m[K sb
+ 1402  [01;31m[Kcd[m[K -
+ 1403  [01;31m[Kcd[m[K sb
+ 1404  [01;31m[Kcd[m[K aic-5_1_10-api-mini-project/
+ 1422  [01;31m[Kcd[m[K 
+ 1426  [01;31m[Kcd[m[K ~/
+ 1427  [01;31m[Kcd[m[K /
+ 1429  [01;31m[Kcd[m[K 
+ 1431  [01;31m[Kcd[m[K ../sb
+ 1434  [01;31m[Kcd[m[K ..
+ 1437  [01;31m[Kcd[m[K wrangling/
+ 1441  [01;31m[Kcd[m[K nicole_donnely_workshop_2017/
+ 1445  [01;31m[Kcd[m[K 
+ 1462  [01;31m[Kcd[m[K Downloads/
+ 1469  [01;31m[Kcd[m[K ..
+ 1471  [01;31m[Kcd[m[K domino/
+ 1473  [01;31m[Kcd[m[K ..
+ 1475  [01;31m[Kcd[m[K domino/
+ 1482  [01;31m[Kcd[m[K sb
+ 1487  [01;31m[Kcd[m[K aic-5_1_10-api-mini-project/
+ 1489  [01;31m[Kcd[m[K ..
+ 1506  [01;31m[Kcd[m[K
+ 1508  [01;31m[Kcd[m[K domino/
+ 1512  [01;31m[Kcd[m[K sb
+ 1514  [01;31m[Kcd[m[K aic-5_3_7-data-wrangling-with-pandas-mini-project/
+ 1516  [01;31m[Kcd[m[K ~/domino/
+ 1526  [01;31m[Kcd[m[K sb
+ 1533  [01;31m[Kcd[m[K
+ 1535  [01;31m[Kcd[m[K domino/
+ 1536  [01;31m[Kcd[m[K sb
+ 1540  [01;31m[Kcd[m[K aic-5_4_3-JSON-mini-project/
+ 1545  [01;31m[Kcd[m[K ..
+ 1548  [01;31m[Kcd[m[K ..
+ 1560  [01;31m[Kcd[m[K sb
+ 1564  [01;31m[Kcd[m[K -
+ 1565  [01;31m[Kcd[m[K sb
+ 1567  [01;31m[Kcd[m[K aic-5_6_6-sql-at-scale-with-spark-mini-project/
+ 1569  [01;31m[Kcd[m[K ..
+ 1575  [01;31m[Kcd[m[K -
+ 1587  [01;31m[Kcd[m[K wrangling/
+ 1627  [01;31m[Kcd[m[K redis/
+ 1649  [01;31m[Kcd[m[K /etc/NetworkManager/system-connections/
+ 1658  [01;31m[Kcd[m[K
+ 1666  [01;31m[Kcd[m[K -
+ 1672  history | grep [01;31m[Kcd[m[K
+(base) ]0;tzaffi@ubuntu: ~/redis[01;32mtzaffi@ubuntu[00m:[01;34m~/redis[00m$ cd /var[1@s[1@u[1@d[1P[1P[1P[C[C[C[C[C[C[C/lib [K/docker/
+(base) ]0;tzaffi@ubuntu: /var/lib/docker[01;32mtzaffi@ubuntu[00m:[01;34m/var/lib/docker[00m$ sudo ls
+[sudo] password for tzaffi: 
+builder   containers  network	plugins   swarm  trust
+buildkit  image       overlay2	runtimes  tmp	 volumes
+(base) ]0;tzaffi@ubuntu: /var/lib/docker[01;32mtzaffi@ubuntu[00m:[01;34m/var/lib/docker[00m$ sudo lscd /var/lib/docker/[12Psudo ls[Ksudo ls /volumes_data
+ls: cannot access '/volumes_data': No such file or directory
+(base) ]0;tzaffi@ubuntu: /var/lib/docker[01;32mtzaffi@ubuntu[00m:[01;34m/var/lib/docker[00m$ sudo ls /volumes_data/_data
+ls: cannot access '/volumes/_data': No such file or directory
+(base) ]0;tzaffi@ubuntu: /var/lib/docker[01;32mtzaffi@ubuntu[00m:[01;34m/var/lib/docker[00m$ sudo ls /volumes/_data[K[K[K[K[K
+ls: cannot access '/volumes/': No such file or directory
+(base) ]0;tzaffi@ubuntu: /var/lib/docker[01;32mtzaffi@ubuntu[00m:[01;34m/var/lib/docker[00m$ sudo ls /volumes/_data[1Pvolumes/_data
+ls: cannot access 'volumes/_data': No such file or directory
+(base) ]0;tzaffi@ubuntu: /var/lib/docker[01;32mtzaffi@ubuntu[00m:[01;34m/var/lib/docker[00m$ sudo ls volumes/_data[K[K[K[K[K[K
+hello_docker_db_data  metadata.db	 redis_redisdata   talkvoter_static-volume
+hello_docker_wp_data  redis_jupyterdata  talkvoter_pgdata
+(base) ]0;tzaffi@ubuntu: /var/lib/docker[01;32mtzaffi@ubuntu[00m:[01;34m/var/lib/docker[00m$ sudo ls volumes[Ksudo ls volumes/_data[4P/volumes/_data[1P_data[Kcd /var/lib/docker/[12Psudo ls /volumes_data[Kls[K[Ksudo lscd /var/lib/docker/[12Psudo ls vlumes[K[K[K[K[Kolumes
+hello_docker_db_data  metadata.db	 redis_redisdata   talkvoter_static-volume
+hello_docker_wp_data  redis_jupyterdata  talkvoter_pgdata
+(base) ]0;tzaffi@ubuntu: /var/lib/docker[01;32mtzaffi@ubuntu[00m:[01;34m/var/lib/docker[00m$ d[Ksudo ls volumes
+hello_docker_db_data  metadata.db	 redis_redisdata   talkvoter_static-volume
+hello_docker_wp_data  redis_jupyterdata  talkvoter_pgdata
+(base) ]0;tzaffi@ubuntu: /var/lib/docker[01;32mtzaffi@ubuntu[00m:[01;34m/var/lib/docker[00m$ sudo ls volumes4[K
+hello_docker_db_data  metadata.db	 redis_redisdata   talkvoter_static-volume
+hello_docker_wp_data  redis_jupyterdata  talkvoter_pgdata
+(base) ]0;tzaffi@ubuntu: /var/lib/docker[01;32mtzaffi@ubuntu[00m:[01;34m/var/lib/docker[00m$ sudo ls volumes
+hello_docker_db_data  hello_docker_wp_data  metadata.db  talkvoter_pgdata  talkvoter_static-volume
+(base) ]0;tzaffi@ubuntu: /var/lib/docker[01;32mtzaffi@ubuntu[00m:[01;34m/var/lib/docker[00m$ sudo ls volumes
+hello_docker_db_data  metadata.db	 redis_redisdata   talkvoter_static-volume
+hello_docker_wp_data  redis_jupyterdata  talkvoter_pgdata
+(base) ]0;tzaffi@ubuntu: /var/lib/docker[01;32mtzaffi@ubuntu[00m:[01;34m/var/lib/docker[00m$ cd ~/d[Kredis
+(base) ]0;tzaffi@ubuntu: ~/redis[01;32mtzaffi@ubuntu[00m:[01;34m~/redis[00m$ o[Kdocker-compose ps
+     Name                    Command               State                     Ports                   
+-----------------------------------------------------------------------------------------------------
+redis_jupyter_1   jupyter notebook --ip='*'  ...   Up      0.0.0.0:8895->8888/tcp,                   
+                                                           0.0.0.0:9000->9000/tcp                    
+redis_redis_1     docker-entrypoint.sh redis ...   Up      6379/tcp                                  
+(base) ]0;tzaffi@ubuntu: ~/redis[01;32mtzaffi@ubuntu[00m:[01;34m~/redis[00m$ ^C
+(base) ]0;tzaffi@ubuntu: ~/redis[01;32mtzaffi@ubuntu[00m:[01;34m~/redis[00m$ ^C
+(base) ]0;tzaffi@ubuntu: ~/redis[01;32mtzaffi@ubuntu[00m:[01;34m~/redis[00m$ exit
+exit
+
+Script done on 2019-11-15 14:10:31-0500
